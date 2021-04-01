@@ -1,0 +1,22 @@
+include includes/header
+body
+  include includes/navbar
+
+  .jumbotron
+    header.text-center
+      h1 Course Discounts
+      .d-flex.justify-content-center
+        p.lead #{meta.description}
+
+  section.container
+    .row
+      for course in courses
+        a.col-lg-4.col-md-6(href=course.url)
+          .card.m-2
+            .card-header
+              img.card-img-top.p-2.rounded(src=course.imageURL, alt=course.title)
+              h3 #{course.title}
+            .card-body
+              p #{course.description}
+
+  include includes/footer

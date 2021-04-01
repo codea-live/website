@@ -1,0 +1,6 @@
+.navbar img {
+  width: 128px;
+}
+.navbar {
+  background-color: var(--background-secondary);
+}

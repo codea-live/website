@@ -1,0 +1,19 @@
+/* credit - https://codepen.io/ariona/details/JopOOr */
+
+header {
+  pointer-events: none;
+  transform: translateZ(0);
+  padding: 30px;
+  border-radius: 5px;
+  margin: auto;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  position: relative;
+}
+header h1 {
+  transform: translateZ(100px);
+}
+header p {
+  transform: translateZ(50px);
+  display: block;
+}
