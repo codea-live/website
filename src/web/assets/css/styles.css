@@ -1,3 +1,7 @@
+* {
+  max-width: 100vw !important; 
+}
+
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
@@ -52,5 +56,6 @@ p.lead {
 footer {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
+  overflow-x: none;
 }

@@ -1,12 +1,12 @@
-nav.navbar.navbar-expand
+nav.navbar.navbar-expand-lg
   .container-fluid
     a.navbar-brand(href='/')
       img.d-inline-block.align-text-top(src='/assets/img/logo.png', alt='CodeAlive - Learn to Code Online')
     
     button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
-      span.navbar-toggler-icon
+      span.navbar-toggler-icon #[i.fas.fa-bars.p-1]
 
-    .collapse.navbar-collapse
+    #navbarNav.collapse.navbar-collapse
       ul.navbar-nav.me-auto.mb-2.mb-lg-0
         li.nav-item
           a.nav-link(href='/courses') Courses
@@ -16,5 +16,3 @@ nav.navbar.navbar-expand
           a.nav-link(href='https://help.codea.live', target='_blank') Projects
         li.nav-item
           a.nav-link(href='https://youtube.com/adamjr', target='_blank') Tutorials
-      span
-        p Hola Mundo
