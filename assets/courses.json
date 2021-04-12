@@ -4,5 +4,11 @@
     "imageURL": "/assets/img/courses/best-discord-bot.jpg",
     "url": "https://bit.ly/best-discord-bot",
     "description": "Master the Discord Bot API, and Create a Robust Discord Bot and Dashboard with Node.js! 30 Day Money Back Guarantee."
+  },
+  {
+    "title": "Complete Raspberry Pi Hosting Guide (Provisional)",
+    "imageURL": "https://cdn.pixabay.com/photo/2018/05/29/11/05/device-3438525_960_720.jpg",
+    "url": "https://help.codea.live/raspberry-pi-hosting/overview",
+    "description": "Learn how to save hundreds of dollars in hosting bills, host your Raspberry Pi 24/7, monitor your applications, learn bash scripting from scratch and more!"
   }
 ]
