@@ -1,0 +1,30 @@
+:root {
+  --primary: #DDC3E7;
+  --secondary: #7790CF;
+  --tertiary: #F0A15D;
+  --accent: #BF2D52;
+
+  --bg-primary: #3B4D67;
+  --bg-secondary: #34445a;
+  --bg-tertiary: #2e3c50;
+}
+
+.bg-primary {
+  color: var(--primary);
+}
+.bg-secondary {
+  color: var(--secondary);
+}
+.bg-tertiary {
+  color: var(--tertiary);
+}
+
+.bg-bg-primary {
+  color: var(--bg-primary);
+}
+.bg-bg-secondary {
+  color: var(--bg-secondary);
+}
+.bg-bg-tertiary {
+  color: var(--bg-tertiary);
+}
