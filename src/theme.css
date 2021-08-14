@@ -1,30 +1,42 @@
 :root {
   --primary: #DDC3E7;
   --secondary: #7790CF;
-  --tertiary: #F0A15D;
-  --accent: #BF2D52;
+  --tertiary: #3B4D67;
 
-  --bg-primary: #3B4D67;
-  --bg-secondary: #34445a;
-  --bg-tertiary: #2e3c50;
+  --accent: #BF2D52;
+  --heading: black;
+  --font: #161616;
+
+  --bg-primary: white;
+  --bg-secondary: white;
+  --bg-tertiary: white;
 }
 
-.bg-primary {
+body {
+  color: var(--font);
+}
+
+h1,h2,h3,h4,h5 {
+  color: var(--heading);
+  font-family: 'Inter', sans-serif;
+}
+
+.primary {
   color: var(--primary);
 }
-.bg-secondary {
+.secondary {
   color: var(--secondary);
 }
-.bg-tertiary {
+.tertiary {
   color: var(--tertiary);
 }
 
 .bg-bg-primary {
-  color: var(--bg-primary);
+  background-color: var(--bg-primary);
 }
 .bg-bg-secondary {
-  color: var(--bg-secondary);
+  background-color: var(--bg-secondary);
 }
 .bg-bg-tertiary {
-  color: var(--bg-tertiary);
+  background-color: var(--bg-tertiary);
 }
