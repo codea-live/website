@@ -1,5 +1,3 @@
-
-
 const HomePage = () => {
   return (
     <div className="App">
